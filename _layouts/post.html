@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{{ page.date | date: "%-d %B %Y" }}
+<h2>{{ page.title }}</h2>
+<p><em>by {{ page.author | default: site.author }}</em></p>
+
+{{content}} 

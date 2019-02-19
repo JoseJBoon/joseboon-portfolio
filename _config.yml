@@ -1,1 +1,9 @@
+title: Portfolio
+baseurl: "/joseboon-portfolio"
+
+github_username:  josejboon
+author: josejboon
+email: josejboon@gmail.com
+
 theme: jekyll-theme-slate
+markdown: kramdown
