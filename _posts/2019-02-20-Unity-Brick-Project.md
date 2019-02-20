@@ -2,7 +2,7 @@
 layout: post
 title: Unity Brick Project
 date: 2019-02-20 16:00:00 +0100
-front_image: /assets/images/bricks.png
+front_image: /assets/images/bricks.PNG
 unity_dir: Bricks
 ---
 
