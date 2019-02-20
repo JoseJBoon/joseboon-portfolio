@@ -1,0 +1,61 @@
+h1
+{
+    a
+    {
+        color: inherit;
+        &:hover
+        {
+            text-decoration: none;
+        }
+    }
+}
+
+section.inner
+{
+    article
+    {
+        img
+        {
+            max-width: 80%;
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+    }
+}
+
+div.imageLibrary
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    div
+    {
+        flex-basis: 312px;
+        max-width: 312px;
+        border: 1px solid #ebebeb;
+        padding: 2px;
+        margin: 1px;
+
+        img
+        {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            max-width: 100%;
+        }
+    }
+}
+
+@media(max-width: 680px)
+{
+    div.imageLibrary
+    {
+        div
+        {
+            flex-basis: 160px;
+        }
+    }
+}
+

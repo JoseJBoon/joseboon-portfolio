@@ -1,0 +1,14 @@
+<section class="imageLibrary">
+    <h4>Images</h4>
+    <div class="imageLibrary">
+        {% for image in site.static_files %}
+            {% if image.path contains page.image_library %}
+                <div>
+                    <img src="{{ site.baseurl }}{{ image.path }}" />
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+

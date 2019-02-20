@@ -7,3 +7,11 @@ layout: default
 <p><em>by {{ page.author | default: site.author }}</em></p>
 
 {{content}} 
+
+{% if page.unity_dir %}
+    {% include page__unity.html %}
+{% endif %}
+
+{% if page.image_library %}
+    {% include image_library.html %}
+{% endif %}

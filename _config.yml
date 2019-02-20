@@ -7,3 +7,6 @@ email: josejboon@gmail.com
 
 theme: jekyll-theme-slate
 markdown: kramdown
+
+sass:
+  sass_dir: _sass
