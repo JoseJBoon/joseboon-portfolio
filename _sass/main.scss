@@ -10,16 +10,27 @@ h1
     }
 }
 
-section.inner
+article.inner
 {
-    article
+    section
     {
+        background-color: #fbfbf5;
+        text-align: center;
+        margin-bottom: 15px;
+        transition: box-shadow .5s, background-color .5s;
+
         img
         {
             max-width: 80%;
             padding: 0;
             margin: 0;
             border: 0;
+        }
+
+        &:hover
+        {
+            box-shadow: 4px 4px 5px 1px #ccc;
+            background-color: #e6e6e6;
         }
     }
 }
