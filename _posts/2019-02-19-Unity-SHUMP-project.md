@@ -4,6 +4,7 @@ title: Unity SHMUP project
 date: 2019-02-19 16:42:00 +0100
 unity_dir: SHUMP
 front_image: /assets/images/shmup_1.png
+hide: false
 ---
 
 Een simpel Unity 2D Shoot em up game. Het Doel van dit project was het leren van Unity 2D components. 
