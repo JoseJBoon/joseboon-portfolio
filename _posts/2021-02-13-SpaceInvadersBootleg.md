@@ -2,7 +2,7 @@
 layout: post
 title: Space Invaders
 date: 2021-02-13 16:00:00 +0100
-front_image: /assets/images/spaceinvaders/Gameplay-2.PNG
+front_image: /assets/images/SpaceInvaders/Gameplay-2.png
 image_library: /images/SpaceInvaders/
 hide: false
 ---

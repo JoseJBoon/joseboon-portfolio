@@ -2,7 +2,7 @@
 layout: post
 title: Neon Trail
 date: 2021-02-14 14:00:00 +0100
-front_image: /assets/images/NeonTrail/UI_PlayerSelect_countdown.PNG
+front_image: /assets/images/NeonTrail/UI_PlayerSelect_countdown.png
 image_library: /images/NeonTrail/
 hide: false
 ---
