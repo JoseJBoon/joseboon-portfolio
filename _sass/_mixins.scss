@@ -1,0 +1,48 @@
+@mixin center-image-at-pivot($x, $y, $scale)
+{
+    $x: $x / $scale;
+    $y: $y / $scale;
+    transform: scale($scale) translate(-50%, -50%) translate($x, $y);
+}
+
+@mixin zero-model
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+@mixin image-background-color
+{
+    background: #d5dadf;
+    background: radial-gradient(circle, #8ba5c1 11%, #adb5c8 89%);
+}
+
+@mixin resize-image-gallery($width, $size, $gap, $image-scale)
+{
+    @media (min-width: $width)
+    {
+        section.image-gallery
+        {
+            grid-template-columns: repeat(3, $size);
+            column-gap: $gap;
+            row-gap: $gap;
+            grid-auto-rows: $size;
+            
+            $height: $size - 2px * 2;
+
+            section
+            {
+                height: $height; 
+            }
+
+            img
+            {
+                $center: $height / 2;
+                @include center-image-at-pivot($center, $center, $image-scale);
+            }
+        }
+    }
+}

@@ -1,17 +1,34 @@
 ---
 layout: default
 ---
+<article class="inner">
+    <header>
+        {{ page.date | date: "%-d %B %Y" }}
+        <h2>{{ page.title }}</h2>
+        <p><em>by {{ page.author | default: site.author }}</em></p>
+    </header>
+    
+    <section id="content">
+        {{ content }} 
+    </section>
 
-{{ page.date | date: "%-d %B %Y" }}
-<h2>{{ page.title }}</h2>
-<p><em>by {{ page.author | default: site.author }}</em></p>
-
-{{content}} 
-
-{% if page.unity_dir %}
+    {%- if page.unity_dir -%}
+    <section id="game">
     {% include page__unity.html %}
-{% endif %}
+    </section>
+    {%- endif -%}
 
-{% if page.image_library %}
+    {%- if page.image_library -%}
     {% include image_library.html %}
-{% endif %}
+    {%- endif -%}
+
+    {%- comment -%} <p>
+    &#x21A2;
+    &#x21A3;
+    </p> {%- endcomment -%}
+
+    <div class="overlay">
+        <span>&times;</span>
+        <img src="">
+    </div>
+</article>

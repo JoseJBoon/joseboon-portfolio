@@ -4,7 +4,7 @@ title:  "Pixel Shader XNA"
 date:   2019-02-19 15:06:44 +0100
 front_image: /assets/images/XNA_PixelShader/pixel_4.png
 image_library: /images/XNA_PixelShader/
-hide: false
+hide: true
 ---
 
 XNA project, waar ik heb zitten spelen met verschillende draw methods en Pixel Shaders.
