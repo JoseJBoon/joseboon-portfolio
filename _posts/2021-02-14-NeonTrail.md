@@ -33,7 +33,7 @@ De webgl versie van dit spel is speelbaar met het toestenboord.
 <section>
     <h3>Eerste playtest</h3>
     <video autoplay="false" controls width="360">
-        <source src="{{ 'assets\videos\NeonTrail-Demo-v1.webm' | relative_url }}" type="video/webm">
+        <source src="{{ 'assets/videos/NeonTrail-Demo-v1.webm' | relative_url }}" type="video/webm">
         Sorry, your browser doesn't support embedded videos.
     </video>
 </section>
