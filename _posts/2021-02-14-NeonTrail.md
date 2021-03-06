@@ -28,7 +28,7 @@ De webgl versie van dit spel is speelbaar met het toestenboord.
 | Object Verwijderen | Rechtermuisknop |
 | Achtergrond Veranderen | Tab |
 
-[Klik hier op de webgl versie te spelen]({{ 'assets/unity/neontrail/index.html' | relative_url }})
+[Klik hier op de webgl versie te spelen]({{ 'assets/unity/NeonTrail/index.html' | relative_url }})
 
 <section>
     <h3>Eerste playtest</h3>
