@@ -19,4 +19,4 @@ Het doel van dit spel is om de aliens zo lang mogelijk tegen te houden door ze t
 | Spatie | Schieten |
 | ESC | Pauseert het spel |
 
-[Klik hier op de webgl versie te spelen]({{ 'assets/unity/SpaceInvaders/index.html' | relative_url }})
+[Klik hier voor de WebGL versie]({{ 'assets/unity/SpaceInvaders/index.html' | relative_url }})
