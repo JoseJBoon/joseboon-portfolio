@@ -11,6 +11,8 @@ Dit is een Space Invaders clone game, waar ik mijn eigen pixel art voor heb gema
 
 Het doel van dit spel is om de aliens zo lang mogelijk tegen te houden door ze te vernietigen.
 
+Website: [Grain Games](https://graingames.com/)
+
 ### Het spel
 
 | Controls |
